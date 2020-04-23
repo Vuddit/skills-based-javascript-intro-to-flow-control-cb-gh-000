@@ -32,9 +32,7 @@ function switchAge(age) {
     switch(age) {
       case 15:
         return 'You are a teenager'
-      case 7:
-        return 'You have an age'
-      case 75:
+      default:
         return 'You have an age'
     }
 }
